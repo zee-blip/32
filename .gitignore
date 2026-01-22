@@ -53,3 +53,31 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# VS Code
+**/.vscode/
+
+# Keil uVision build output
+**/Objects/
+**/Listings/
+**/DebugConfig/
+
+# Keil project user files
+**/*.uvoptx
+**/*.uvguix
+
+# Common generated files
+**/*.bak
+**/*.dep
+**/*.map
+**/*.lst
+**/*.axf
+**/*.o
+**/*.d
+**/*.crf
+**/*.log
+**/*.lock
+
+# STM32CubeMX (可选：如果你不想提交 .ioc 就保留；想提交就删掉这一行)
+# **/*.ioc
+
