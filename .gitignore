@@ -1,0 +1,83 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# debug information files
+*.dwo
+
+# VS Code
+**/.vscode/
+
+# Keil uVision build output
+**/Objects/
+**/Listings/
+**/DebugConfig/
+
+# Keil project user files
+**/*.uvoptx
+**/*.uvguix
+
+# Common generated files
+**/*.bak
+**/*.dep
+**/*.map
+**/*.lst
+**/*.axf
+**/*.o
+**/*.d
+**/*.crf
+**/*.log
+**/*.lock
+
+# STM32CubeMX (可选：如果你不想提交 .ioc 就保留；想提交就删掉这一行)
+# **/*.ioc
+
