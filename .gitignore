@@ -63,8 +63,8 @@ dkms.conf
 **/DebugConfig/
 
 # Keil project user files
-**/*.uvoptx
-**/*.uvguix
+*.uvguix*
+*.uvoptx*
 
 # Common generated files
 **/*.bak
